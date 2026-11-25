@@ -1,0 +1,6 @@
+﻿project_id,project_name,approved_budget_aed_m,actual_capex_aed_m,open_commitments_aed_m,committed_exposure_aed_m,headroom_after_open_pos_aed_m
+PRJ001,Gas Processing Expansion,150.0,121.974,19.0,140.974,9.025999999999996
+PRJ002,Compressor Upgrade,80.0,65.968,12.5,78.468,1.5319999999999965
+PRJ003,Pipeline Infrastructure Upgrade,95.0,77.003,14.7,91.703,3.2970000000000006
+PRJ004,Plant Digitalisation,45.0,35.055,6.0,41.055,3.9450000000000003
+PRJ005,Utilities Efficiency,80.0,60.711,11.0,71.711,8.289000000000001

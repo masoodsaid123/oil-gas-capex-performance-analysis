@@ -1,0 +1,16 @@
+﻿po_id,project_id,project_name,fictional_supplier,scope_description,original_po_value_aed_m,approved_change_orders_aed_m,approved_cancellations_aed_m,revised_po_value_aed_m,invoiced_to_date_aed_m,open_commitment_aed_m,po_status
+PO-25001,PRJ003,Pipeline Infrastructure Upgrade,Gulf Fabrication Works LLC,Pipeline spool fabrication,18,1.2,0.2,19.0,12,7.0,Open
+PO-25002,PRJ003,Pipeline Infrastructure Upgrade,Desert Flow Systems FZE,Isolation valves and fittings,12,0.8,0,12.8,8.3,4.5,Open
+PO-25003,PRJ003,Pipeline Infrastructure Upgrade,Meridian Civil Projects LLC,Pipeline corridor civil works,9,0.5,0.3,9.2,6,3.1999999999999993,Open
+PO-25004,PRJ001,Gas Processing Expansion,Atlas Process Equipment FZE,Gas separation equipment,22,2,0,24.0,15,9.0,Open
+PO-25005,PRJ001,Gas Processing Expansion,Crescent Engineering Services LLC,Process piping installation,16,1.5,0.5,17.0,11,6.0,Open
+PO-25006,PRJ001,Gas Processing Expansion,Northstar Instrumentation LLC,Instrumentation packages,11,0.6,0,11.6,7.6,4.0,Open
+PO-25007,PRJ002,Compressor Upgrade,Summit Rotating Equipment FZE,Compressor refurbishment,14,1,0,15.0,9,6.0,Open
+PO-25008,PRJ002,Compressor Upgrade,Pioneer Mechanical Works LLC,Mechanical installation,10,0.5,0,10.5,6.5,4.0,Open
+PO-25009,PRJ002,Compressor Upgrade,Blue Dune Controls LLC,Control panel upgrades,8,0,0.5,7.5,5,2.5,Open
+PO-25010,PRJ005,Utilities Efficiency,Oasis Electrical Systems LLC,Electrical distribution upgrades,12,0.5,0,12.5,7.5,5.0,Open
+PO-25011,PRJ005,Utilities Efficiency,Vertex Utility Services LLC,Utility network modifications,9,0.4,0.4,9.0,5,4.0,Open
+PO-25012,PRJ005,Utilities Efficiency,Sandstone Automation FZE,Control and monitoring devices,6,0.2,0,6.2,4.2,2.0,Open
+PO-25013,PRJ004,Plant Digitalisation,BrightPath Digital Solutions LLC,Industrial software configuration,8,0.4,0,8.4,5.4,3.0,Open
+PO-25014,PRJ004,Plant Digitalisation,SignalWorks Integration LLC,Systems integration services,6,0.2,0,6.2,4.2,2.0,Open
+PO-25015,PRJ004,Plant Digitalisation,Nexa Data Systems FZE,Data migration and testing,4,0,0,4.0,3,1.0,Open

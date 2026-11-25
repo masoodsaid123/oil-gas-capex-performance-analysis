@@ -1,0 +1,34 @@
+-- Measures for the PostgreSQL table/column names created by sql/01_build_and_analyse_capex.sql.
+-- Create these in a dedicated Measures table in Power BI.
+
+Planned CAPEX = SUM(monthly_capex[planned_capex_aed_m])
+Actual CAPEX = SUM(monthly_capex[actual_capex_aed_m])
+Monthly CAPEX Variance = [Actual CAPEX] - [Planned CAPEX]
+CAPEX Variance % = DIVIDE([Monthly CAPEX Variance], [Planned CAPEX])
+Approved Budget = SUM(project_budget[approved_budget_aed_m])
+Open Commitments = SUM(purchase_orders[open_commitment_aed_m])
+Revised PO Value = SUM(purchase_orders[revised_po_value_aed_m])
+PO Invoiced to Date = SUM(purchase_orders[invoiced_to_date_aed_m])
+Current Committed Exposure = [Actual CAPEX] + [Open Commitments]
+Budget Headroom After Open POs = [Approved Budget] - [Current Committed Exposure]
+Actual Budget Utilisation % = DIVIDE([Actual CAPEX], [Approved Budget])
+Committed Exposure % = DIVIDE([Current Committed Exposure], [Approved Budget])
+PO Invoiced % = DIVIDE([PO Invoiced to Date], [Revised PO Value])
+
+-- Create a Calendar table and relate Calendar[Date] to monthly_capex[month].
+Cumulative Actual CAPEX =
+CALCULATE(
+    [Actual CAPEX],
+    FILTER(ALLSELECTED('Calendar'[Date]), 'Calendar'[Date] <= MAX('Calendar'[Date]))
+)
+
+Cumulative Planned CAPEX =
+CALCULATE(
+    [Planned CAPEX],
+    FILTER(ALLSELECTED('Calendar'[Date]), 'Calendar'[Date] <= MAX('Calendar'[Date]))
+)
+
+Cumulative CAPEX Variance = [Cumulative Actual CAPEX] - [Cumulative Planned CAPEX]
+
+-- EAC is intentionally not calculated from open POs alone.
+-- Add a governed ETC forecast table before publishing EAC.

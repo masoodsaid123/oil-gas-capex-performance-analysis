@@ -1,0 +1,26 @@
+{
+  "synthetic_data_notice": "All project, supplier, PO, budget and financial records in this repository are fictional training data.",
+  "project_count": 5,
+  "monthly_capex_row_count": 60,
+  "monthly_records_per_project": {
+    "PRJ001": 12,
+    "PRJ002": 12,
+    "PRJ003": 12,
+    "PRJ004": 12,
+    "PRJ005": 12
+  },
+  "variance_log_row_count": 8,
+  "purchase_order_count": 15,
+  "project_budget_row_count": 5,
+  "planned_capex_total_aed_m": 355.0,
+  "actual_capex_total_aed_m": 360.711,
+  "revised_po_total_aed_m": 172.9,
+  "invoiced_to_date_total_aed_m": 109.7,
+  "open_commitment_total_aed_m": 63.2,
+  "budget_total_day15_assumptions_aed_m": 450.0,
+  "current_committed_exposure_aed_m": 423.911,
+  "portfolio_headroom_aed_m": 26.089,
+  "duplicate_po_ids": 0,
+  "negative_open_commitment_rows": 0,
+  "project_id_mapping": "Corrected: Day 15 PO project IDs were remapped by project name to the authoritative Day 2 Projects master IDs."
+}

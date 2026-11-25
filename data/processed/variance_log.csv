@@ -1,0 +1,9 @@
+﻿Variance_ID,Project_ID,Month,Variance_Amount_AED_M,Variance_Reason,Corrective_Action,Action_Owner,Due_Date,Action_Status
+VAR001,PRJ001,2025-01-01,2,Material price escalation,Validate supplier quotations and update cost forecast,Procurement Manager,2025-02-15,In Progress
+VAR002,PRJ002,2025-03-01,0.39,Expedited equipment delivery,Review expediting charges and contractor support,Project Manager,2025-04-10,Open
+VAR003,PRJ003,2025-04-01,0.945,Additional construction scope,Confirm approved change order and revise estimate,Project Controls Lead,2025-05-05,In Progress
+VAR004,PRJ004,2025-05-01,0.378,Specialist software procurement,Review licensing scope and payment milestones,IT Project Lead,2025-06-01,Open
+VAR005,PRJ005,2025-07-01,0.612,Unplanned equipment maintenance,Assess whether cost is capitalisable and obtain approval,Operations Manager,2025-08-01,Under Review
+VAR006,PRJ001,2025-09-01,0.72,Earlier-than-planned equipment delivery,Rephase cash flow and confirm delivery acceptance,Project Manager,2025-10-05,Closed
+VAR007,PRJ003,2025-08-01,0.743,Contractor productivity below plan,Agree recovery schedule and monitor weekly,Construction Manager,2025-09-01,In Progress
+VAR008,PRJ002,2025-10-01,0.449,Foreign exchange and freight movement,Refresh forecast assumptions with Finance,Finance Analyst,2025-11-01,Open

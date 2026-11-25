@@ -1,0 +1,6 @@
+﻿Project_ID,Project_Name,Division,Approved_Budget_AED_M,Annual_Planned_CAPEX_AED_M,Project_Stage
+PRJ001,Gas Processing Expansion,Engineering,150,120,Execution
+PRJ002,Compressor Upgrade,Projects,80,65,Procurement
+PRJ003,Pipeline Infrastructure Upgrade,Projects,95,75,Execution
+PRJ004,Plant Digitalisation,Engineering,45,35,Engineering
+PRJ005,Utilities Efficiency,Operations,80,60,Execution
