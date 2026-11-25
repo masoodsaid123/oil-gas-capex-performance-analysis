@@ -33,5 +33,4 @@ The procurement snapshot contains 15 fictional purchase orders. Revised PO value
 ## Critical interpretation caveat
 Current committed exposure is actual CAPEX plus open purchase order commitments. It is **not** Estimate at Completion. It excludes future costs not yet committed. Do not claim that the project/portfolio will finish within budget based only on this calculation.
 
-## Data quality and provenance
-The original Day 2 workbook provides the project master and 60 monthly CAPEX rows. The Day 15 workbook provides the procurement snapshot and separate illustrative project budgets. A project-ID mismatch between the two sources was corrected by matching project names and translating procurement rows to the authoritative Day 2 IDs. See `data/processed/validation_summary.json`.
+
